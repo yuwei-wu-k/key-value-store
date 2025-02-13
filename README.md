@@ -51,12 +51,12 @@ requiring reliability, this implementation effectively balances performance and 
    ` javac TCPClient.java TCPServer.java UDPClient.java UDPServer.java`
 
 3. Run the server program
-   - ` java TCPServer` or `java UDPServer`
-   - `9086` (or any other port number)
+   ` java TCPServer` or `java UDPServer`
+   `9086` (or any other port number)
 
 4. Run the client program
-   - ` java TCPClient` or `java UDPClient`
-   - `localhost` (or the server's IP address)
+   ` java TCPClient` or `java UDPClient`
+   `localhost` (or the server's IP address)
 
 5. Follow the prompts to interact with the key-value store using PUT, GET, and DELETE commands
 
